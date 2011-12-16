@@ -1,0 +1,7 @@
+lib/*
+target/
+project/
+*.iml
+*.ipr
+*.iws
+.idea
