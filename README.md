@@ -3,6 +3,22 @@ WowzAkka
 
 Make your Wowzer Media Server capable of talking to an Akka Actor.
 
+
+## Installation
+
+Make sure the symlink of lib/ points to your Wowzer's lib/-directory.
+
+```
+./sbt compile package
+cp target/scala-2.9.1/wowzakka_2.9.1-1.0.jar lib/
+cp ~/.ivy2/cache/com.typesafe.akka/akka-actor/jars/akka-actor-2.0-M1.jar lib/
+```
+
+Add ag.bett.scala.wowzakka.WowzAkkaExample to Wowzer's Application.xml and start it up.
+
+
+## Thanks
+
 Thanks to elm0!
 
 
