@@ -44,7 +44,7 @@ import akka.util.duration._
 
 object WowzAkka {
   val system = ActorSystem("WowzAkka")
-  val actor = context.actorFor("akka://WowzAkka@127.0.0.1:2560/user/serviceA/retrieval")
+  val actor = system.actorFor("akka://WowzAkka@127.0.0.1:2550/user/serviceA/retrieval")
 }
 
 
